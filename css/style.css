@@ -159,7 +159,7 @@ body {
   text-align: center;
 }
 
-.team-h2 {
+.team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -170,8 +170,8 @@ body {
 
 .team-ul-img-h {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
@@ -196,7 +196,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.15;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -222,6 +222,7 @@ body {
 .address-li{
 line-height: 1.5;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .header-nav-li{
