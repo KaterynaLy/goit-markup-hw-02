@@ -8,7 +8,7 @@
   --second-footer-logo-color: #f4f4fd;
   --primary-background-color: #ffffff;
   --secondary-background-color: #2e2f42;
-  --gray-background-color: #f4f4fd;
+  --gray-background-color: #F4F4FD;
   --accent-color: #4d5ae5;
   --active-accent-color: #ffffff;
   --accent-background-color: #f4f4fd;
@@ -159,6 +159,10 @@ body {
   text-align: center;
 }
 
+.forth-section {
+  background-color: var(--gray-background-color);
+  text-align: center;}
+
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -175,6 +179,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
+  text-align: center;
 }
 
 .team-ul-p {
