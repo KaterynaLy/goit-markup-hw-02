@@ -108,7 +108,6 @@ body {
 .section-hero .btn-section-hero {
   background-color: var(--accent-color);
   color: var(--white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -123,7 +122,6 @@ body {
 }
 
 .features-h2 {
-  display: none;
   text-align: center;
 }
 
@@ -142,13 +140,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-.section-performance-h2 {
+.section-performance-h {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
+  text-align: center;
 }
 
 .section-performance-images {
@@ -169,11 +168,12 @@ body {
   color: var(--secondary-color);
 }
 
-.team-ul-img-h3 {
+.team-ul-img-h {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--secondary-color);
 }
 
@@ -186,9 +186,6 @@ body {
 
 .team-ul-img {
   background-color: var(--primary-background-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .footer {
@@ -199,8 +196,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
-  display: flex;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -219,12 +215,19 @@ body {
   color: var(--second-footer-logo-color);
 }
 
-.filter-title {
-  display: none;
-}
-
 .list-div {
   list-style-type: none;
+}
+
+.address-li{
+line-height: 1.5;
+line-height: 1.5;
+}
+
+.header-nav-li{
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .list-div .button-all {
@@ -242,10 +245,7 @@ body {
 .list-div .button-all:hover,
 .list-div .button-all:focus {
   background-color: var(--active-accent-background-color);
-  color: var(--white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  
+  color: var(--white-color);  
 }
 
 .portfolio-strategy {
